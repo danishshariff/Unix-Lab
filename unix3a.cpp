@@ -1,7 +1,7 @@
  
  #include<iostream>
  #include<unistd.h>
- intmain(intargc,char*argv[]){
+ int main(intargc,char*argv[]){
  if(argc!=3){
  std::cerr<<"Usage:"<<argv[0]<<"source_filetarget_file"<<std::endl;
  return1;
